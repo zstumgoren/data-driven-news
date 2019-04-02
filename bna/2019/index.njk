@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+title: Building News Applications
+coursenum: 177T/277T
+year: 2019
+homepage: "https://data-driven.news/bna/2019/"
+---
+
+<content>
+    <h1>{{ title }} ({{ coursenum }})</h1>
+
+    {% include "bna/" + year + "/course-description.njk" %}
+    {% include "bna/" + year + "/learning-goals.html" %}
+    {% include "bna/" + year + "/about.njk" %}
+    {% include "bna/" + year + "/requirements-and-recs.njk" %}
+    {% include "bna/" + year + "/structure.njk" %}
+    {% include "bna/" + year + "/assignments-and-grading.njk" %}
+    {% include "bna/" + year + "/professional-disclosure.njk" %}
+    {% include "bna/" + year + "/honor-code.html" %}
+</content>
