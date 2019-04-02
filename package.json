@@ -1,0 +1,17 @@
+{
+  "name": "data-driven.news",
+  "version": "1.0.0",
+  "description": "Personal site for Stanford journalism syllabi, tutorials, etc.",
+  "main": "index.js",
+  "dependencies": {
+    "nunjucks": "^3.2.0"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^0.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Serdar Tumgoren",
+  "license": "ISC"
+}
