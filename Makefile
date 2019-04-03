@@ -8,7 +8,7 @@ help:
 clean:
 	rm -rf _site/
 
-docs: clean
+docs:
 	npx eleventy
 
 servedocs: clean docs
