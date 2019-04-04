@@ -32,9 +32,12 @@ In the next step, we'll update the bucket's settings to serve as a public websit
 Now that we have a bucket, it's time to enable it for website hosting. What follows is a distilled version of the process. See [Configuring a bucket for website hosting](https://docs.aws.amazon.com/AmazonS3/latest/dev/HowDoIWebsiteConfiguration.html) for more details.
 
 * [Enable website hosting][] for the bucket and enter the default names for the index and error pages.
-* Next, update the [bucket permissions](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteAccessPermissionsReqd.html) to enable public readability of files.
-  * Navigate to `Permissions -> Bucket Policy`
-  * Add a [bucket policy][] such as below (*replace `example.com` below with your own bucket name in the `Resource` section*):
+* Next, update the [bucket permissions](https://docs.aws.amazon.com/AmazonS3/latest/dev/WebsiteAccessPermissionsReqd.html) to enable public readability of files. This is a multi-step process:
+  * Navigate to `Permissions -> Public access settings`
+  * Click `Edit` in the right corner and uncheck the two boxes at bottom ("Block new public bucket policies" and "Block public and cross-account access...")
+  * Click `Save`
+  * Next, navigate to `Permissions -> Bucket Policy`
+  * Add the below [bucket policy][], *replacing `example.com` with your own bucket name in the `Resource` section*. You must use the precise bucket name (e.g. don't include ".com" if your bucket doesn't have ".com" in the name) and make sure to keep the trailing `/*` at the end.
     ```
     {
         "Version": "2012-10-17",
@@ -60,7 +63,7 @@ Now that we have a bucket, it's time to enable it for website hosting. What foll
         </body>
     </html>
   ```
-* Check the public URL of the page to verify the content is accessible. The URL should follow the below format:
+* Check the public URL of the page to verify the content is accessible. This can be found by going back to where you configured static website hosting and grabbing the `Endpoint` link. The URL should follow the below format:
     ```
     # Format
     http://<bucket-name>.s3-website.<region>.amazonaws.com/
