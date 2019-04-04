@@ -7,7 +7,7 @@ homepage: "https://data-driven.news/bna/2019/"
 ---
 <div id="content">
 
-    <h1>Day {{ daynum }} ~  {{ title }} </h1>
-    <p id="coursedate"><em>{{ coursedate }}</em></p>
+    <h1>{{ title }}</h1>
+    <div id="coursedate">Day {{ daynum }} ~  {{ coursedate }}</div>
     {{ content | safe }}
 </div>
