@@ -59,7 +59,6 @@ Now that we have a bucket, it's time to enable it for website hosting. What foll
         <body>
             <h1>Hello world!</h1>
             <p>Future home of an awesome project website.</p>
-
         </body>
     </html>
   ```
@@ -70,7 +69,6 @@ Now that we have a bucket, it's time to enable it for website hosting. What foll
     
     # Example
     http://example.com.s3-website.us-east-1.amazonaws.com/
-
    ```
 > See the [website endpoints][] documentation for more details on how to access your public site.
 
