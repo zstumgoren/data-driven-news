@@ -25,9 +25,9 @@ User -> mydomain.com (Route53) -> CloudFront domain -> S3
 And the good news is that because we're using AWS, the overall process is dramatically simpler than a more traditional strategy that involves separately purchasing a domain and (pricey) SSL certificate, setting up a web server, and configuring [DNS][].
 
 [HTTPS]: https://en.wikipedia.org/wiki/HTTPS
-[AWS website]: https://data-driven/how-to/create-a-static-website/
+[AWS website]: https://data-driven.news/how-to/create-a-static-website/
 [S3]: https://aws.amazon.com/s3/
-[Create a Static Website]: https://data-driven/how-to/create-a-static-website/
+[Create a Static Website]: https://data-driven.news/how-to/create-a-static-website/
 [Certificate Manager]: https://aws.amazon.com/certificate-manager/
 [SSL certificate]: https://en.wikipedia.org/wiki/Public_key_certificate
 [CloudFront]: https://aws.amazon.com/cloudfront/
