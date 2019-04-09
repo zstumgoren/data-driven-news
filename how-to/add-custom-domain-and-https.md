@@ -50,6 +50,7 @@ Go to the AWS [Certificate Manager][] service to [request a public SSL certifica
 
 > Below, we use *example.com* to demonstrate the workflow. During this process, you must substitute the domain name you purchased in the prior step of the tutorial (e.g. data-driven.news).
 
+* **Make sure that the U.S. East (N. Virginia) region is selected in the upper-right corner of the page.**
 * Click `Request a certificate`
 * Leave the default selection (`Request a public certificate`) and click `Request a certificate`
 * In the `Add domain names` section, you'll want to add 3 variations of the domain name you just purchased. Here is a sample that you should modify for your own domain: 
