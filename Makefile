@@ -16,7 +16,7 @@ install:
 	mkdir -p _site
 	npm install
 
-servedocs: clean docs
+servedocs:
 	npx eleventy --serve
 
 deploy: clean docs
