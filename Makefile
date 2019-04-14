@@ -13,7 +13,7 @@ docs:
 	npx eleventy
 
 install:
-	mkdir _site
+	mkdir -p _site
 	npm install
 
 servedocs: clean docs
