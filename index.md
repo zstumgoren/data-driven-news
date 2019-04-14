@@ -3,6 +3,6 @@ layout: layouts/base.njk
 title: data-driven.news
 ---
 
-# data-driven.news
+<div id="logo">{{ title }}</div>
 
-Stanford journalism syllabi and other bits.
+<p>Stanford journalism syllabi and other bits.</p>
