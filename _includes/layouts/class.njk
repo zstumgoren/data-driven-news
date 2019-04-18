@@ -9,10 +9,19 @@ homepage: "https://data-driven.news/bna/2019/"
 <header>
   <h1>{{ title }}</h1>
   <div id="coursedate">Day {{ daynum }} ~  {{ coursedate }}</div>
+  <nav class="sitenav">
+    <a href="/bna/{{ year }}">Syllabus</a>
+    <a href="/bna/{{ year }}/classnotes/">Class notes</a>
+    <a href="/bna/{{ year }}/assignments/">Assignments</a>
+  </nav>
 </header>
 
 {{ content | toc | safe }}
 
-<div class="content">
+<main>
 {{ content | safe }}
-</div>
+</main>
+
+<footer>
+  <p>FOOTER</p>
+</footer>

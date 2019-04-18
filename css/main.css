@@ -1,3 +1,31 @@
+header {
+  grid-area: hd;
+}
+aside {
+  grid-area: aside;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+main {
+  grid-area: main;
+  padding: 10px;
+}
+footer {
+  grid-area: ft;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  grid-auto-rows: minmax(100px, auto);
+  grid-template-areas:
+    'hd hd hd hd hd hd hd hd hd'
+    'aside aside main main main main main main main'
+    'ft ft ft ft ft ft ft ft ft';
+  grid-gap: 10px;
+  background-color: #fff; //#2196F3;
+  padding: 10px;
+}
 body {
   font-family: helvetica;
 }
@@ -11,6 +39,10 @@ h1 {
 #logo {
   font-size: 50px;
   font-family: "Times New Roman", Times, serif;
+}
+ol li {
+  list-style-type: none;
+  color:blue;
 }
 blockquote {
   background: #f9f9f9;
@@ -38,30 +70,4 @@ pre {
   font-size:16px;
   margin-left: 6%;
 }
-header {
-  margin-bottom: 10px;
-  clear: both;
-}
-aside {
-  height: 100%;
-  width: 200px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  overflow-x: hidden;
-}
-aside {
-  color: white;
-  padding: 16px;
-  text-decoration: none;
-  display: block;
-}
-ol li {
-  list-style-type: none;
-  color:blue;
-}
-.content {
-  margin-left: 200px;
-  padding-left: 20px;
-}
+
