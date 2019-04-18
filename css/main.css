@@ -12,10 +12,6 @@ h1 {
   font-size: 50px;
   font-family: "Times New Roman", Times, serif;
 }
-div#content {
-  width: 63%;
-  margin: 0 auto;
-}
 blockquote {
   background: #f9f9f9;
   border-left: 10px solid #ccc;
@@ -41,4 +37,31 @@ pre {
   font-family: Consolas,"courier new";
   font-size:16px;
   margin-left: 6%;
+}
+header {
+  margin-bottom: 10px;
+  clear: both;
+}
+aside {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+aside {
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+ol li {
+  list-style-type: none;
+  color:blue;
+}
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
 }
