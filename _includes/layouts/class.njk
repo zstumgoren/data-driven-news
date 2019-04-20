@@ -1,27 +1,8 @@
----
-layout: layouts/base.njk
-title: Building News Applications
-coursenum: 177T/277T
-year: 2019
-homepage: "https://data-driven.news/bna/2019/"
----
+{% extends "layouts/base_bna.njk" %}
 
-<header>
+{% block content %}
   <h1>{{ title }}</h1>
   <div id="coursedate">Day {{ daynum }} ~  {{ coursedate }}</div>
-  <nav class="sitenav">
-    <a href="/bna/{{ year }}">Syllabus</a>
-    <a href="/bna/{{ year }}/classnotes/">Class notes</a>
-    <a href="/bna/{{ year }}/assignments/">Assignments</a>
-  </nav>
-</header>
+  {{ super() }}
+{% endblock %}
 
-{{ content | toc | safe }}
-
-<main>
-{{ content | safe }}
-</main>
-
-<footer>
-  <p>FOOTER</p>
-</footer>

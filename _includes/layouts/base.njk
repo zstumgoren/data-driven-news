@@ -8,7 +8,17 @@
   </head>
   <body>
     <div class="grid-container">
-    {{ content | safe }}
-    </div>
+      <header>{% block header %}{% endblock %}</header>
+      <nav>{% block sitenav %}{% endblock %}</nav>
+      {{ content | toc | safe }}
+      <main>
+        {% block content %}{{ content | safe }}{% endblock %}
+      </main>
+      <footer>
+        {% block footer %}
+        &copy; Copyright 2019 by Serdar Tumgoren.
+        {% endblock %}
+      </footer>
+      </div>
   </body>
 </html>
