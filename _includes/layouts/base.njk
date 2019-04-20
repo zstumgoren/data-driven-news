@@ -10,7 +10,9 @@
     <div class="grid-container">
       <header>{% block header %}{% endblock %}</header>
       <nav>{% block sitenav %}{% endblock %}</nav>
+      {% block pagenav %}
       {{ content | toc | safe }}
+      {% endblock %}
       <main>
         {% block content %}{{ content | safe }}{% endblock %}
       </main>
