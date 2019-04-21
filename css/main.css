@@ -32,6 +32,7 @@ main {
   grid-area: main;
   padding: 10px;
   overflow: auto;
+  line-height: 1.25;
 }
 footer {
   grid-area: ft;
@@ -71,16 +72,13 @@ footer {
 }
 h1 {
   text-align: center;
-  font-size: 30px;
 }
 h2 {
-  text-align: center;
-  font-size: 20px;
+  text-align: left;
   padding-top: 15px;
 }
 h3 {
-  text-align: center;
-  font-size: 15px;
+  text-align: left;
 }
 ol li {
   list-style-type: none;
@@ -105,14 +103,14 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
-code {
+/* for Markdown-generated, inline code */
+ul code {
   font-family: Consolas,"courier new";
-  font-size:16px
-}
-pre {
-  font-family: Consolas,"courier new";
-  font-size:16px;
-  margin-left: 6%;
+  font-size:1.125em;
+  background-color: #efefef;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-radius: .15em;
 }
 /* Table bits */
 th, td {

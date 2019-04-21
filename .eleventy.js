@@ -1,10 +1,12 @@
 const pluginTOC = require('eleventy-plugin-nesting-toc');
+const syntaxHighlightPlugin = require("@11ty/eleventy-plugin-syntaxhighlight");
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(
     pluginTOC,
     {tags: ['h2', 'h3'], wrapper: "aside"}
   );
+  eleventyConfig.addPlugin(syntaxHighlightPlugin);
 
   eleventyConfig.addPassthroughCopy("css");
 
