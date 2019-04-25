@@ -118,8 +118,7 @@ You should now see a data entry form for the distribution, which you should fill
   * Click into the empty field and select the SSL certificate you created earlier. If the certificate does not appear in the drop-down menu, please verify in [Certificate Manager][] that the `Status` is "Issued".
 * Click `Create Distribution` at lower right of page.
 
-Once again, this process can take up to 20-30 minutes. You can view the progress by
-clicking on `Distributions` in the upper left corner of the CloudFront console, and checking the `Status` column. When the `In Progress` indicator has changed to `Deployed`, you can hop over to Route 53 for the final step in the process.
+Once again, this process can take up to 20-30 minutes. You can view the progress by clicking on `Distributions` in the upper left corner of the CloudFront console, and checking the `Status` column. When the `In Progress` indicator has changed to `Deployed`, you can hop over to Route 53 for the final step in the process.
 
 > See [these steps][] for more background on the above.
 
@@ -133,8 +132,7 @@ Stash this domain away. You'll need it in the next step.
 
 ## Create Route 53 Alias
 
-For this final step, you must create a DNS [Alias][] record in Route 53 that points
-all traffic from your domain to the CloudFront-generated domain. 
+For this final step, you must create a DNS [Alias][] record in Route 53 that points all traffic from your domain to the CloudFront-generated domain. 
 
 * Navigate to [Route 53][] in the AWS console
 * Click on `Registered domains` in the left navigation
@@ -154,8 +152,7 @@ You should now be able to visit your new site (e.g. https://example.com). We hav
 
 If all these steps went smoothly, you should have a shiny new domain that serves your S3-hosted website over HTTPS. This should lend a degree of professionalism to your new site.
 
-However, it's important to note that this type of architecture
-is not secure end-to-end. With the current setup, only the traffic between a user's browser and the CloudFront domain is encrypted. Communications inside the Amazon network between CloudFront and S3 continue to be performed over unsecured HTTP.
+However, it's important to note that this type of architecture is not secure end-to-end. With the current setup, only the traffic between a user's browser and the CloudFront domain is encrypted. Communications inside the Amazon network between CloudFront and S3 continue to be performed over unsecured HTTP.
 
 This type of setup may not be appropriate for hosting sensitive files/information. But for a basic project site, we've chosen to make this trade-off on security to gain simplicity in setup and management of our static website.
 
