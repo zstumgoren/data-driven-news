@@ -23,9 +23,13 @@ Some key skills you'll be expected to be familiar with:
 * Creating and using functions
 * Looping and conditional statements
 
-The above represent a solid core that should help you begin reading and writing Javascript.
+The above represents a solid subset of language features and skills that should help you begin reading and writing Javascript.
 
-> If you prefer a more human-friendly (though verbose) introduction, you might also want to check out [Learn Enough Javascript to Be Dangerous][]. To get started, just work through `Section 5.4 - Iteration for each`, focusing exclusively on the use of JS examples in a browser.
+#### Other resources
+
+If you prefer a more human-friendly (though verbose) introduction, you might also want to check out [Learn Enough Javascript to Be Dangerous][]. To get started, just work through `Section 5.4 - Iteration for each`, focusing exclusively on the use of JS examples in a browser.
+
+Lastly, this [JS cheatsheet][] is also quite handy.
 
 [W3C Javascript tutorial]: https://www.w3schools.com/js/default.asp
 [JS HOME]: https://www.w3schools.com/js/default.asp
@@ -38,4 +42,5 @@ The above represent a solid core that should help you begin reading and writing 
 [Comparisons]: https://www.w3schools.com/js/js_comparisons.asp
 [Conditional statements]: https://www.w3schools.com/js/js_if_else.asp
 [`for` loops]: https://www.w3schools.com/js/js_loop_for.asp
+[JS cheatsheet]: https://htmlcheatsheet.com/js/
 [Learn Enough Javascript to Be Dangerous]: https://www.learnenough.com/javascript-tutorial/hello_world
