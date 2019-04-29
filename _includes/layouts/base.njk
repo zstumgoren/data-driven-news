@@ -10,10 +10,11 @@
   <body>
     <div class="grid-container">
       <header>{% block header %}{% endblock %}</header>
-      <nav>{% block sitenav %}{% endblock %}</nav>
+      <nav class="sitenav">{% block sitenav %}{% endblock %}</nav>
       {% block pagenav %}
       {{ content | toc | safe }}
       {% endblock %}
+      <div class="clearfix"></div>
       <main>
         {% block content %}{{ content | safe }}{% endblock %}
       </main>
