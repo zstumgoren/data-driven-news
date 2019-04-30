@@ -52,7 +52,7 @@ main {
 footer {
   grid-area: ft;
   color: #444;
-  text-align: left;
+  text-align: center;
 }
 .grid-container {
   display: grid;
@@ -61,7 +61,7 @@ footer {
     '. hd'
     '. nav'
     'aside main'
-    'ft ft';
+    '. ft';
   grid-gap: 10px;
   background-color: #fff;
 }
