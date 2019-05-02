@@ -9,6 +9,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlightPlugin);
 
   eleventyConfig.addPassthroughCopy("css");
+  eleventyConfig.addPassthroughCopy("img");
 
 	/* Markdown */
 	let markdownIt = require("markdown-it");

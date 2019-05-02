@@ -133,6 +133,10 @@ tr:nth-child(even) {
 th.center, td.center {
   text-align: center;
 }
+img {
+  width: 100%;
+  height: auto;
+}
 
 @media screen and (max-width: 575px) {
   .grid-container {
