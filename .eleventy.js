@@ -10,6 +10,7 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addPassthroughCopy("css");
   eleventyConfig.addPassthroughCopy("img");
+  eleventyConfig.addPassthroughCopy("static/pdf");
 
 	/* Markdown */
 	let markdownIt = require("markdown-it");
