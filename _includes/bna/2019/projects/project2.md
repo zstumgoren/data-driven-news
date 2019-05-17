@@ -39,6 +39,41 @@ Use HTML, CSS, plain Javascript, D3 and an external data file to implement the i
 
 > The visualization must include a headline and prominent (but short) section of narrative to provide background on the story.
 
+### Inspiration
+
+#### Data
+
+The search for data in the news process most often begins *after* you've decided on a story idea. Ask yourself if there's a topic or question you'd like to explore -- e.g. something you've seen in the news lately -- and what questions you have about the story. Let those questions guide your data sleuthing.
+
+If you're still hard-pressed for story/data ideas, try visiting government websites and data clearinghouses to generate some ideas.
+
+Below are a few sites to get you started:
+
+* [Palo Alto Data Portal](http://data.cityofpaloalto.org/home/)
+* [data.ca.gov](https://data.ca.gov/) - the CA state data portal
+* [data.gov](https://www.data.gov/) - a federal clearinghouse of data on a wide variety of subjects
+* [San Francisco's online data](https://datasf.org/opendata/) and the underlying [open data portal](https://dev.socrata.com/data/).
+
+Lastly, it's fine to use data sets we've touched on during the quarter, such as the [Death Penalty Information Center's Executions Database](https://deathpenaltyinfo.org/views-executions).
+
+#### Interactives
+
+Below are some interactive graphics and clearinghouses to serve as models and inspiration as you work on the final project. 
+
+Some great [D3 examples from NYT](https://learning.oreilly.com/library/view/d3js-quick-start/9781789342383/1b3f3cbd-66f2-4d42-9530-37e60448db52.xhtml) are mentioned in the D3.js Quick Start Guide. Here are a few:
+* [Electoral Map](https://www.nytimes.com/elections/2012/electoral-map.html)
+* [512 Paths to the White House](http://archive.nytimes.com/www.nytimes.com/interactive/2012/11/02/us/politics/paths-to-the-white-house.html)
+* [Swing States](https://archive.nytimes.com/www.nytimes.com/interactive/2012/10/15/us/politics/swing-history.html)
+
+And some additional examples:
+
+* [Super Bowl Ad-Spending](http://graphics.wsj.com/super-bowl-ad-spending/) by WSJ uses D3 and is a good example for interactive layout/design
+* [Thousands Cried for Help as Houston Flooded](https://www.nytimes.com/interactive/2017/08/30/us/houston-flood-rescue-cries-for-help.html) by NYT embeds a dynamic map of tweets in a longer narrative
+* [US Minimimum wage growth](https://www.cnn.com/interactive/2019/business/us-minimum-wage-by-year/index.html) - doesn't seem to use d3, but it's a good example of a basic overall page layout with narrative background.
+* [Dark Money](https://projects.propublica.org/graphics/koch) by ProPublica doesn't seem to use D3, but is another good example of page elements to use in a news interactive (headline, narrative, interactive chart, etc.).
+* [CNN Interactives](https://money.cnn.com/interactive/)
+* [WSJ Interactives 2015](http://graphics.wsj.com/wsj-interactives-2015/)
+
 ### Submitting your work
 
 To submit the project, you must:
