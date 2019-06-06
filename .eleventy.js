@@ -8,9 +8,9 @@ module.exports = function(eleventyConfig) {
   );
   eleventyConfig.addPlugin(syntaxHighlightPlugin);
 
-  eleventyConfig.addPassthroughCopy("css");
-  eleventyConfig.addPassthroughCopy("img");
-  eleventyConfig.addPassthroughCopy("static/pdf");
+  eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("src/img");
+  //eleventyConfig.addPassthroughCopy("src/static/pdf");
 
 	/* Markdown */
 	let markdownIt = require("markdown-it");
@@ -49,7 +49,7 @@ module.exports = function(eleventyConfig) {
     dataTemplateEngine: "njk",
     passthroughFileCopy: true,
     dir: {
-      input: ".",
+      input: "src",
       includes: "_includes",
       data: "_data",
       output: "_site"
