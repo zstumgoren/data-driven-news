@@ -8,7 +8,7 @@ module.exports = function(eleventyConfig) {
   );
   eleventyConfig.addPlugin(syntaxHighlightPlugin);
 
-  eleventyConfig.addPassthroughCopy("src/css");
+  eleventyConfig.addPassthroughCopy("src/static/css");
   eleventyConfig.addPassthroughCopy("src/img");
   //eleventyConfig.addPassthroughCopy("src/static/pdf");
 
