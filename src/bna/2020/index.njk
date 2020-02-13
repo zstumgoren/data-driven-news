@@ -1,0 +1,17 @@
+---
+layout: layouts/base_bna.njk
+title: Syllabus
+---
+
+{% block content %}
+    <h1>{{ title }}</h1>
+
+    {% include "bna/" + year + "/course-description.njk" %}
+    {% include "bna/" + year + "/learning-goals.html" %}
+    {% include "bna/" + year + "/about.njk" %}
+    {% include "bna/" + year + "/requirements-and-recs.njk" %}
+    {% include "bna/" + year + "/structure.njk" %}
+    {% include "bna/" + year + "/assignments-and-grading.njk" %}
+    {% include "bna/" + year + "/professional-disclosure.njk" %}
+    {% include "bna/" + year + "/honor-code.html" %}
+{% endblock %}

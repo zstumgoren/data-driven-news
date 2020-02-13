@@ -1,0 +1,22 @@
+---
+layout: layouts/base_bna.njk
+title: Class notes
+---
+
+{% block content %}
+  <h1>{{ title }}</h1>
+  <table id="classnotes">
+  <tr>
+    <th class="center">Date</th>
+    <th class="center">Day</th>
+    <th></th>
+  </tr>
+    {%- for notepage in collections.classnotes2020 %}
+    <tr>
+      <td>{{ notepage.data.coursedate }}</td>
+      <td class="center">{{ notepage.data.daynum }}</td>
+      <td><a href="{{ notepage.data.page.url }}">{{ notepage.data.title }}</a></td>
+    </tr>
+    {%- endfor %}
+  </table>
+{% endblock %}
