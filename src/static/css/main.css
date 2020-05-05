@@ -123,6 +123,9 @@ ul code {
   border-radius: .15em;
 }
 /* Table bits */
+table {
+  white-space: nowrap;
+}
 th, td {
   padding: 3px 13px;
   text-align: left;
@@ -186,5 +189,8 @@ img {
   #coursedate {
     text-align: center;
     font-style: italic;
+  }
+  table {
+    white-space: normal;
   }
 }
