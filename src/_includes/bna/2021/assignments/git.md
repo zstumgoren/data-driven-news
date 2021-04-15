@@ -21,8 +21,8 @@ The goal is to learn and practice the following concepts and techniques:
 * Initializing a new repo and cloning an existing "remote" repo
 * Staging changes to be committed to a local git repository
 * Committing changes to a local git repository
-* Pushing committed changes to a remote repoistory
-* Creating code in branches
+* Pushing committed changes to a remote repository
+* Working on branches
 * Merging changes from branches into the "main" branch
 
 ### Submit
