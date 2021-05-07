@@ -10,6 +10,6 @@ Review the below resources on the DOM and Browser Developer Tools:
 Then work through the following:
 
 * Create a public GitHub repo called `bna-2021-dom-practice`
-* Read and work through the exercises in the MDN [Manipulating Documents](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents). **Stop just before** _Active learning: A dynamic shopping list_. You should end up with two HTML files in your new repo and a single image: `dom-example.html` and `window-resize-example.html` and `dinosaur.png`
+* Read and work through the exercises in the MDN [Manipulating Documents](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents). **Stop just before** _Active learning: A dynamic shopping list_. You should end up with two HTML files in your new repo and two images: `dom-example.html` and `window-resize-example.html`,  along with `bgtile.png` and `dinosaur.png`
 * Commit these files to your repo and push to GitHub
 * Submit the URL to the repo via Canvas
