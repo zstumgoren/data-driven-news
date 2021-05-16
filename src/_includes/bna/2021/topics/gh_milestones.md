@@ -14,7 +14,7 @@ This quarter we adopted a variety of strategies and tools to help us grow as cod
 
 Today, we'll add one more piece to the puzzle: [GitHub Milestones][].
 
-Milestones in software help organize our work on the path to completing a project. They set mid-way goalposts to which we link new features, bugfixes, and sundry tasks. When used well, they clarify the scope of future work and help us focus our efforts.
+Milestones in software help organize our work on the path to completing a project. They set midway goalposts to which we link new features, bug fixes, and sundry tasks. When used well, they clarify the scope of future work and help us focus our efforts.
 
 ## Semantic versioning FYI
 
@@ -33,19 +33,19 @@ The numbering scheme in [semantic versioning][] signals the level of [compatibil
 
 * The first number indicates **major** changes that could break code that relied on a previous major version.
 * The second signals the addition of **minor** features that are "backwards-compatible".
-* And the third number indicates code **patches** such as bug fixes (that are also backwards-compatible).
+* And the third number indicates code **patches** such as bug fixes (also backwards-compatible).
 
-Semantic versioning isn't the only way to communicate changes to libraries you use in your day-to-day coding, but it's widely used convention and can be helpful when trying to decide which version of a library to install for your project, and whether to update libraries in an existing project.
+Semantic versioning isn't the only way to communicate changes to libraries, but it's a widely used convention and can be helpful when trying to decide which version of a library to install for your project, and whether to update libraries in an existing project.
 
 ## Milestones for news apps
 
-Our news app projects are of a slightly different nature. We're working on projects that tell a story and enable readers to explore data around a topic.
+Our news apps are of a slightly different nature. We're working on projects that tell a story and enable readers to explore data around a topic.
 
 So unlike coders creating reusable open-source _libraries_, we don't have to worry about communicating the compatibility of our code to the outside world.
 
-> But it _is_ important to specify the "dependencies" -- i.e. the precise versions of software used in our project -- for teammates and others who want to reproduce or build on our work.
+> It _is_, however, important to specify "dependencies" -- i.e. the precise versions of software used in our project -- for teammates and others who want to reproduce or build on our work.
 
-Given the different nature of our projects, we can use a different approach to set milestones and organize our work. Instead of semantic versioning, we'll peg our milestones to a period of time: the weekly [sprint][].
+Given the different nature of our projects, we can use an alternative approach to set milestones and organize our work. Instead of semantic versioning, we'll peg our milestones to a period of time: the weekly [sprint][].
 
 Today, we'll review how [Big Local News](https://github.com/biglocalnews) uses [GitHub Milestones][] to organize tasks and code releases for various projects. Then we'll create sprint-based milestones for own team projects and assign our remaining tasks to those mile markers.
 
