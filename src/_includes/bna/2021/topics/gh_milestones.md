@@ -6,11 +6,11 @@
 
 This quarter we adopted a variety of strategies and tools to help us grow as coders and execute a team project:
 
-* [User Stories](../day/2/)
-* [SMART Goals](../day/3/)
-* [Daily scrums](../day/5)
-* [Collaborative Coding](../day/7)
-* [Team retrospectives](../day/4/)
+* [User Stories](../2/)
+* [SMART Goals](../3/)
+* [Daily scrums](../5/)
+* [Collaborative Coding](../7/)
+* [Team retrospectives](../6/)
 
 Today, we'll add one more piece to the puzzle: [GitHub Milestones][].
 
@@ -46,6 +46,8 @@ So unlike coders creating reusable open-source _libraries_, we don't have to wor
 > It _is_, however, important to specify "dependencies" -- i.e. the precise versions of software used in our project -- for teammates and others who want to reproduce or build on our work.
 
 Given the different nature of our projects, we can use an alternative approach to set milestones and organize our work. Instead of semantic versioning, we'll peg our milestones to a period of time: the weekly [sprint][].
+
+Yes, this introduces the classic problem of estimating how long a task or feature will take to complete (see XKCD above). But the short time frame for our work -- i.e. units of one week -- lends itself to thinking through granular tasks. These tend to be easier to estimate than broader groups of features on a longer timeline.
 
 Today, we'll review how [Big Local News](https://github.com/biglocalnews) uses [GitHub Milestones][] to organize tasks and code releases for various projects. Then we'll create sprint-based milestones for own team projects and assign our remaining tasks to those mile markers.
 
