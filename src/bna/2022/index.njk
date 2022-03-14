@@ -1,0 +1,77 @@
+---
+layout: layouts/base_bna.njk
+title: Syllabus
+---
+
+{% block content %}
+    <h1>{{ title }}</h1>
+
+    <h2 id="course-description">Course description</h2>
+
+    <p>This course introduces students to the technical and workflow skills used by
+    news application teams. Students will form into groups to conceive and execute
+    a news project, along the way learning and applying best practices for team
+    collaboration, goal-setting and project management.</p>
+
+    <p>Students will also craft and execute individual learning plans designed
+     to help them develop new technical skills and deepen mastery of existing skills. 
+     These may range from the basics of web development using HTML, CSS and Javascript
+     to more advanced skills such as using D3 and cloud services to create data-driven, 
+     interactive graphics.</p>
+     <p>Whatever the starting point, student learning plans must be aligned with their team's project goals.</p>
+
+    <h2 id="course-format">Course format</h2>
+
+    <p>Our classes will mainly serve as a venue for team planning and collaboration. This will include:</p>
+    <ul>
+      <li>Review of recent work</li>
+      <li>Planning of next steps</li>
+      <li>Pair coding and problem solving</li>
+      <li>Review and alignment of learning goals with project-specific tasks</li>
+      <li>Providing feedback on other team projects</li>
+    </ul>
+
+    <p>We'll also have occassional, brief lectures and discussions on topics related to news apps.</p>
+
+    <h2 id="learning-objectives">Learning objectives</h2>
+
+    <p>The primary goal will be to experience how news app developers work while building a news application, interactive graphics, and/or tools. Throughout the quarter, we'll focus on:</p>
+    <ul>
+      <li>Collaborative workflows and tools</li>
+      <li>Agile software development practices</li>
+      <li>Project planning and management</li>
+      <li>Setting, executing, and reflecting on goals</li>
+    </ul>
+
+    <h2 id="attendance">Attendance</h2>
+    <p>Our classes will mainly provide an opportunity for you to meet with your team and provide end-user feedback to another team. Attendance is important for these reasons, and you'll be expected to reach out to your teammates and instructor to notify us if you need to miss class due to sickness or another reason.</p>
+    <p>Unexcused absences will affect your grade.</p>
+
+    <h2 id="grading-and-assignments">Grading and assignments</h2>
+    <p>Grades will be based on the following criteria:</p>
+    <ul>
+      <li>The overall quality of the <strong>final team project</strong>, including but not limited to the effectiveness of visual communication, usability, and 
+      alignment with news publication standards.</li>
+      <li><strong>Individual contributions</strong> to the team project, including effective collaboration with teammates,  participation in team meetings, and code/technical contributions.</li>
+      <li>The development and execution of <strong>individual learning plans </strong> (using SMART goals) aligned with team goals.</li>
+      <li>Two <strong>"reflection" memos </strong>(at the half-way point and end of the quarter) on the progress of individual learning goals and the team project.</li>
+    </ul>
+
+    <p>Below is an overview of the grading approach:</p>
+    <ul>
+      <li><strong>A+</strong> ~ Exceeded course expectations and produced a project that meets the standards of a professional newsroom. Aggressively pushed the boundaries
+      of current knowledge to acquire new skills and applied them in a way that helped the team achieve a high-quality project. Contributed to a high degree to the oveall
+      success of the team project and other members of the team.</li>
+      <li><strong>A</strong> ~ Met course expectations and produced a final project that <em>approaches</em> the level of quality expected in a professional newsroom. 
+      Acquired new skills and/or refined pre-existing skills and used them to substantially contribute to the team's goals.</li>
+      <li><strong>A- and lower</strong> ~ Failed to meet course expectations in one or more areas (personal skills development, team contributions, quality of final project).</li>
+    </ul>
+
+    <h2 id="communication">Communication</h2>
+    <p>We'll meet in person this quarter and use Slack to communicate outside of class.
+    Join our class Slack workspace through the Slack link in Canvas</p>
+
+    {% include "bna/" + year + "/about.njk" %}
+    {% include "bna/" + year + "/professional-disclosure.njk" %}
+    {% include "bna/" + year + "/honor-code.html" %}
+{% endblock %}
