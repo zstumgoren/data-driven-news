@@ -12,9 +12,10 @@ homepage: "https://data-driven.news/bna/2022/"
   <ul>
     <li><a href="/bna/{{ year }}/">Syllabus</a></li>
     <li><a href="/bna/{{ year }}/classnotes/">Class notes</a></li>
+  <!-- Add topics and assignments pages in 2022 -->
+  {% if year >= 2022 %}
     <li><a href="/bna/{{ year }}/topics/">Topics</a></li>
-    <!-- TODO: add index pages
     <li><a href="/bna/{{ year }}/assignments/">Assignments</a></li>
-    -->
+  {% endif %}
   </ul>
 {% endblock %}
