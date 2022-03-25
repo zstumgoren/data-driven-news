@@ -6,8 +6,6 @@ tags:
   - topicpages2022
 ---
 
-## News apps overview: A glimpse from our times
-
 The COVID pandemic is arguably the biggest story of our lifetimes. It's affected how we live, work, and learn.
 
 Let's start our exploration of news apps by looking at some examples of news coverage that use data to inform and engage the public around this global story.
@@ -18,17 +16,17 @@ In March 2020, The New York Times published a ["scrollytelling" OpEd on flatteni
 
 The NYT is far from the only news organization marshalling resources around COVID coverage.
 
-The Stanford Daily also tracked [Bay Area cases](https://www.stanforddaily.com/2020/03/24/visualized-covid-19-cases-in-santa-clara-county/) in the early days of the pandemic.
+The Stanford Daily tracked [Bay Area cases](https://www.stanforddaily.com/2020/03/24/visualized-covid-19-cases-in-santa-clara-county/) in the early days of the pandemic.
 
 [Big Local News][] created an [embeddable map of case counts and vaccinations](http://covid19.biglocalnews.org/county-maps/index.html#/) as a free resource for news outlets that may not have the data or coding expertise to create such a map for their areas.
 
 [Big Local News]: https://biglocalnews.org
 
-At the beginning of the pandemic, Stanford students have worked with the [Big Local News][] project, which has been coordinating data gathering collaborations on a variety of COVID data, to create a [map of locations offering free lunches](https://www.mercurynews.com/2020/03/20/map-where-in-the-bay-area-to-get-free-school-lunches-during-coronavirus-closures/) during school closures.
+At the beginning of the pandemic, Stanford students helped [Big Local News][] create a [map of locations offering free lunches](https://www.mercurynews.com/2020/03/20/map-where-in-the-bay-area-to-get-free-school-lunches-during-coronavirus-closures/) during school closures.
 
 Here's a [zoomable time-lapse map on COVID case counts](https://covid19map.us/) by a recent Stanford alumnus, Dylan Freedman. Note that you can view the source code for this project on GitHub.
 
-Students, journalists and many others are working from the confines of their homes to produce information-rich storytelling experiences to keep the public informed during the pandemic. Here's one final example from the New York Times that blends traditional reporting -- interviews and storytelling -- in a multimedia format that includes a variety of data visualizations and information graphics.
+Students, journalists and many others produced information-rich storytelling experiences to keep the public informed during the pandemic. Here's one final example from the New York Times that blends traditional reporting -- interviews and storytelling -- in a multimedia format that includes a variety of data visualizations and information graphics.
 
 <iframe title="New York Times Video - Embed Player" width="480" height="321" frameborder="0" scrolling="no" allowfullscreen="true" marginheight="0" marginwidth="0" id="nyt_video_player" src="https://www.nytimes.com/video/players/offsite/index.html?videoId=100000007056651"></iframe>
 
@@ -54,9 +52,4 @@ They're tapping into [satellite imagery][] and ocean [tide sensors][] -- or even
 As news app developers or, more broadly, data journalists, we have the ability to restore some of the trust that has been lost in news. For starters, we can apply best practices from the scientific and open source communities to increase trust in our process. Many news organizations already publish [detailed methodologies](https://www.revealnews.org/article/how-we-identified-lending-disparities-in-federal-mortgage-data/) on their work alongside major investigations. And a growing number publish the raw data and [code](https://github.com/datadesk) used in analysis, tools and applications.
 
 In this course, we'll adopt a broad definition of news apps as the convergence of code, design and journalism -- all in pursuit of engaging the public in new and interesting ways and sustaining the mission of public accountability journalism.
-
-## Syllabus and course overview
-
-Let's review the [syllabus]({{ syllabus }}) and discuss the overall format and objectives of the course.
-
 
