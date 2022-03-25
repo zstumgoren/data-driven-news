@@ -18,7 +18,7 @@ install:
 	npm install
 
 servedocs:
-	npx eleventy --serve
+	npx @11ty/eleventy --serve
 
 deploy_all: clean docs
 	aws s3 sync --profile=stanford --delete _site/ s3://data-driven.news/
