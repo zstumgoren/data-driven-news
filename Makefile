@@ -11,7 +11,7 @@ clean:
 	cd _site && rm -rf *
 
 docs:
-	npx eleventy
+	npx @11ty/eleventy
 
 install:
 	mkdir -p _site
