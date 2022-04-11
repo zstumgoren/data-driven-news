@@ -1,7 +1,7 @@
 ---
 layout: layouts/topics.njk
 title: Daily Stand-up
-description: Daily stands and agile communication
+description: Daily stand-up and agile communication
 tags:
   - topicpages2022
 ---
