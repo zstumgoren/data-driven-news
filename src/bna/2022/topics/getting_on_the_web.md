@@ -38,7 +38,7 @@ change it to public by clicking `Change visibility`
 > Note: If you get a 404, wait a minute or two and refresh. It can take some time for the new site to appear. If it doesn't appear after a few minutes, you may need to double-check that the name of the repo follows the pattern described above.
 
 
-[transferring the repository]: https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository
+[transferring the repo]: https://docs.github.com/en/repositories/creating-and-managing-repositories/transferring-a-repository
 
 With the above setup, the "entry point" to your site (e.g.  `index.html`), should go in the root of the repository.
 
