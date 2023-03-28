@@ -1,0 +1,19 @@
+---
+layout: layouts/assignments.njk
+title: Assignments
+---
+
+{% block content %}
+  <table id="assignments">
+    <tr>
+      <th class="center">Number</th>
+      <th class="center">Title</th>
+    </tr>
+    {%- for page in collections.assignments2023 -%}
+    <tr>
+      <td>{{ page.data.number }}</td>
+      <td><a href="{{ page.data.page.url }}">{{ page.data.title }}</a></td>
+    </tr>
+    {%- endfor -%}
+  </table>
+{% endblock %}
