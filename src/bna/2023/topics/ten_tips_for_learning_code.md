@@ -8,9 +8,9 @@ tags:
 
 ## 1. Lay the foundation
 
-It's tempting to skip fundamentals and immediately start coding on your project, especially with the universe of open code on platforms such as Glitch.com and [ObservableHQ][].
+It's tempting to skip fundamentals and immediately start coding on your project, especially with the universe of open code on platforms such as Glitch.com and [ObservableHQ][]. And of course, ChatGPT and the like are supposed to free us from the burden of ever writing code, right? Wrong!
 
-Customizing pre-existing projects can be a time saver and a [good learning exercise](#6.-learn-by-remixing), but it can lead to frustration if you don't understand basic syntax, techniques and how disparate technologies fit together.
+These powerful tools can certainly jump-start projects and save you a great deal of time, but using them effectively -- ie without mountains of wasted hours and frustration -- still requires a solid grasp of web fundamentals. That includes a basic understanding of syntax, debugging techniques and how disparate parts of a project and varying technologies fit together.
 
 If you're just starting out with web coding, you should take at least 3-4 weeks to level up on the fundamentals of HTML, CSS and Javascript before attempting to use more sophisticated tools such as d3 or React.
 
@@ -55,9 +55,9 @@ Just make sure to [cover your fundamentals](#1.-lay-the-foundation) and _underst
 
 ## 7. Reverse-engineer, then transfer the learning
 
-Find an existing project similar to what you're trying to build. Pick apart the code to understand how it works, with an eye toward identifying the tools and techniques that were used and why they were used.
+Find an existing project similar to what you're trying to build. Pick apart the code to understand how it works, with an eye toward identifying the tools and techniques that were used and why they were used. This is an area where tools such as ChatGPT can really send your learning into over-drive. As you explore other people's code bases, I encourage you to use ChatGPT to help explain what the code is doing if it's at all unclear.
 
-This will involve [study and experimentation](#8.-learn-actively). Determine which tools and techniques might be useful in your project. Then try applying them.
+The reverse-engineering process is most effective when you combine [study and experimentation](#8.-learn-actively). Determine which tools and techniques might be useful in your project. Then try applying them in small-scale, novel ways. It's much easier to adapt a technique for your own project once you have a solid understanding of it.
 
 [Remixing](#6.-learn-by-remixing) is a great way to get started with reverse-engineering.
 
