@@ -3,7 +3,7 @@ layout: layouts/topics.njk
 title: The Coding Cockpit and JS Exercise
 description: Manipulating the DOM with JS and using browser developer tools
 tags:
-  - topicpages2022
+  - topicpages2023
 ---
 
 ![cockpit](/static/img/nasa-cockpit.jpg)

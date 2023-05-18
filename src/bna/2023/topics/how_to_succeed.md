@@ -3,7 +3,7 @@ layout: layouts/topics.njk
 title: How to succeed in this course
 description: Ingredients for success in this course.
 tags:
-  - topicpages2022
+  - topicpages2023
 ---
 
 If you're new(ish) to programming and web development, be prepared to invest quite a few hours as you level up on key skills. This is a good thing. The more reps you get in off-line, the more successful you’ll be in this class. That said, don’t beat your head on the keyboard for 8 hours just to discover a missing comma in your code.

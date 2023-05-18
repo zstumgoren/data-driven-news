@@ -3,7 +3,7 @@ layout: layouts/topics.njk
 title: 10 Tips for Learning Code
 description: Focus on fundamentals, active play, and other tips to speed learning.
 tags:
-  - topicpages2022
+  - topicpages2023
 ---
 
 ## 1. Lay the foundation

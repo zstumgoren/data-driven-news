@@ -3,7 +3,7 @@ layout: layouts/topics.njk
 title: News Apps Overview
 description: Brief overview of news apps, with a focus on the COVID era.
 tags:
-  - topicpages2022
+  - topicpages2023
 ---
 
 The COVID pandemic is arguably the biggest story of our lifetimes. It's affected how we live, work, and learn.

@@ -3,7 +3,7 @@ layout: layouts/topics.njk
 title: A SMART Roadmap
 description: Craft a SMART learning plan that drives forward team goals.
 tags:
-  - topicpages2022
+  - topicpages2023
 ---
 
 ## Team roles

@@ -3,7 +3,7 @@ layout: layouts/topics.njk
 title: Daily Stand-up
 description: Daily stand-up and agile communication
 tags:
-  - topicpages2022
+  - topicpages2023
 ---
 
 ![kanban joke from geek and poke](/static/img/kanban_joke.jpg)
