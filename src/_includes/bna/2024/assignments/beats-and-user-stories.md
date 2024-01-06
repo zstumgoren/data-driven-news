@@ -10,7 +10,7 @@ One person on the team should:
 
 * Go to GitHub
 * Create a new *private* project called **bna-team-name**
-* Add your teammates and me (zstumgoren) as collaborators
+* Add your teammates and me (zstumgoren) as collaborators to the repo
 
 ### Create a team Slack channel
 

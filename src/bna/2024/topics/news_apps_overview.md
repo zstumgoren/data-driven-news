@@ -24,8 +24,6 @@ The Stanford Daily tracked [Bay Area cases](https://www.stanforddaily.com/2020/0
 
 At the beginning of the pandemic, Stanford students helped [Big Local News][] create a [map of locations offering free lunches](https://www.mercurynews.com/2020/03/20/map-where-in-the-bay-area-to-get-free-school-lunches-during-coronavirus-closures/) during school closures.
 
-Here's a [zoomable time-lapse map on COVID case counts](https://covid19map.us/) by a recent Stanford alumnus, Dylan Freedman. Note that you can view the source code for this project on GitHub.
-
 Students, journalists and many others produced information-rich storytelling experiences to keep the public informed during the pandemic. Here's one final example from the New York Times that blends traditional reporting -- interviews and storytelling -- in a multimedia format that includes a variety of data visualizations and information graphics.
 
 <iframe title="New York Times Video - Embed Player" width="480" height="321" frameborder="0" scrolling="no" allowfullscreen="true" marginheight="0" marginwidth="0" id="nyt_video_player" src="https://www.nytimes.com/video/players/offsite/index.html?videoId=100000007056651"></iframe>
@@ -42,7 +40,7 @@ The more ambitious added visual components and auto-generated narrative alongsid
 
 Fortunately, the landscape has evolved since those early days. Newsrooms are spending more time thinking about how to engage the public and even [enlist them](https://www.theguardian.com/news/datablog/2009/jun/18/mps-expenses-houseofcommons) in the news process. They're building [storybots](https://source.opennews.org/articles/how-break-news-while-you-sleep/) to speed up the responsiveness of news, and using [interactive games](https://projects.propublica.org/asylum/) and [AR/VR](https://docs.google.com/presentation/d/1-F_eyqTcKhXb6k2f3KzcwA_Wmy2QQkq39v5cUXTLTr8/present#slide=id.g356b11cd76_0_0) to provide new story experiences.
 
-They're tapping into [satellite imagery][] and ocean [tide sensors][] -- or even [building their own sensors][] -- to uncover the news. They're building [tools](https://datasette.readthedocs.io/en/stable) and [platforms](https://www.documentcloud.org/) to support the news gathering and publication process.
+They're tapping into [satellite imagery][] and ocean [tide sensors][] -- or even [building their own sensors][] -- to uncover the news. They're building [tools](https://docs.datasette.io/en/stable/) and [platforms](https://www.documentcloud.org/) to support the news gathering and publication process.
 
 [story bots]: https://source.opennews.org/articles/how-break-news-while-you-sleep/
 [satellite imagery]: https://www.revealnews.org/article/who-is-the-wet-prince-of-bel-air-here-are-the-likely-culprits/
