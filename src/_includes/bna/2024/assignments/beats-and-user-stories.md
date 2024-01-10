@@ -2,7 +2,9 @@
 
 ### Pick a team name!
 
-As a group, select a name for your team. Feel free to have fun with it, but don't [bikeshed](https://www.urbandictionary.com/define.php?term=bikeshedding) 😀. We want to pick a name and get cracking on our beats and user stories.
+As a group, select a name for your team. Feel free to have fun with it, but don't [bikeshed][] 😀. We want to pick a name and get cracking on our beats and user stories.
+
+[bikeshed]: https://en.wiktionary.org/wiki/bikeshedding
 
 ### Create a GitHub Project Repo
 
@@ -10,11 +12,11 @@ One person on the team should:
 
 * Go to GitHub
 * Create a new *private* project called **bna-team-name**
-* Add your teammates and me (zstumgoren) as collaborators to the repo
+* Add your teammates and me (zstumgoren) as collaborators on the repo
 
 ### Create a team Slack channel
 
-Using the same name as your GitHub project, create a slack channel in our class workspace.
+Using the same name as your GitHub project, create a Slack channel in our class workspace.
 
 ## User-centric project ideas
 
