@@ -24,7 +24,7 @@ deploy_all: clean docs
 	aws s3 sync --profile=stanford --delete _site/ s3://data-driven.news/
 
 deploy: docs
-	aws s3 sync --profile=default --delete _site/bna/2024/ s3://data-driven.news/bna/2024/
+	aws s3 sync --profile=default --delete _site/bna/2025/ s3://data-driven.news/bna/2025/
 	aws s3 sync --profile=default --delete _site/how-to/ s3://data-driven.news/how-to/
 	aws s3 sync --profile=default --delete _site/static/ s3://data-driven.news/static/
 

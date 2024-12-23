@@ -1,0 +1,34 @@
+---
+layout: layouts/class.njk
+date: 2024-01-24
+title: Git Finale and Project Design - Take 1
+daynum: 6
+coursedate: "January 24, 2024"
+tags:
+  - classnotes2024
+---
+
+## Git Finale
+
+Today we'll take some time to review any questions from [Assignment 4 - Version Control with Git](../../assignments/4/).
+
+We'll step back to better understand the recommended approaches for _how
+to work_ with GitHub, both as a team as well as a sensible individual daily workflow.
+
+We'll then wrap up our introduction to [team Collaboration with Git](../../topics/team_collab_with_git/) by diving into branches, merging code, and various snags you'll inevitably encounter when using version control (yes, I mean merge conflicts, among other annoyances).
+
+
+## Project Design - Take 1
+
+We'll also take some time to review basic design principles, and begin [wireframing][] our projects. This is the first of several design check-ins we'll be conducting throughout the quarter.
+
+The goal is to begin sketching out the overall layout of your websites, with a focus on:
+
+- Identifying important page types (home page, child pages, etc)
+- The features each page will have, along with site-wide elements such as navigation
+- How users will interact with your site
+
+> Important: Designs should *clearly* address your team's [user stories](../../topics/beats_and_user_stories/)
+
+
+[wireframing]: https://en.wikipedia.org/wiki/Website_wireframe

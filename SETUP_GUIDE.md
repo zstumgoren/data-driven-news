@@ -28,15 +28,16 @@ Update the Makefile's `deploy` method to the new year, e.g. `2024`.
 ```bash
 # Generate various folders/files for new year from prior year.
 # For example:
-cp src/_includes/bna/2023/ src/_includes/bna/2024/
-cp src/bna/2023/ src/bna/2024/
+cp -R src/_includes/bna/2024/ src/_includes/bna/2025/
+cp -R src/bna/2023/ src/bna/2024/
 
 
 cd src/bna/2024/
 mv 2023.json 2024.json
 ```
 
-Update values in `2024.json`.
+Update JSON file name to current year (e.g. `2024.json`) and update the year values 
+inside the file.
 
 ```json
 {
@@ -54,14 +55,21 @@ make servedocs
 
 > You can now check http://localhost:8000 to see changes as you make them.
 
-## Class notes
+## Classnotes
 
 Update the year value in below snippet of `classnotes/index.njk`.
+
 
 ```
 <<<snipped>>>
  {%- for notepage in collections.classnotes2024 %}
 <<<snipped>>>
+```
+
+Use this command:
+
+```bash
+sed -i '' 's/classnotes2023/classnotes2024/' classnotes/index.njk
 ```
 
 ## Assignments
@@ -113,17 +121,6 @@ sed -i '' 's/topicpages2023/topicpages2024/' *.md
 
 ## Classnotes
 
-Change all tags to an X to prevent display:
-
-```bash
-sed -i '' 's/classnotes2024/classnotes202X/' *.md
-```
-
-Then, update the top matter of each class note as the days arrive:
-
-```bash
-
-```
 
 
 
