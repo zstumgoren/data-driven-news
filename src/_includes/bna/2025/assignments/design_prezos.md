@@ -1,4 +1,4 @@
-Each team should have a solid sense of project deliverables and a rough sketch of the final project at this point in the quarter.
+Each team should have a general vision for their overall project and a rough sense of deliverables at this point.
 
 For this exercise, you'll produce a [website wireframe](https://en.wikipedia.org/wiki/Website_wireframe) that shows the broad strokes of your site design ideas.
 
@@ -11,4 +11,4 @@ During next class, teams will present the latest iteration of their project desi
 * Walk us through a visual representation of their final project that illustrates the core pages and features
 * Explain any interactive elements and clearly annotate those on your designs
 * Describe current status of implementation and next steps for the pages/features
-* Note potential challenges to executing the design
+* Note potential challenges to executing the design, especially data required to support specific features
