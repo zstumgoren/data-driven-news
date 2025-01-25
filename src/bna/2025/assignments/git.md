@@ -2,7 +2,7 @@
 layout: layouts/assignments.njk
 title: Version control with Git
 date: 2025-01-27
-number: 5
+number: 6
 tags:
   - assignments2025
 
