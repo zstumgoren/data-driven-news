@@ -49,7 +49,7 @@ Focus on one skill at a time to [lay a solid foundation](#1.-lay-the-foundation)
 
 ## 6. Learn by remixing
 
-Adapting the work of others can jumpstart your project and provide a window into how the "pros" execute real-world projects. Platforms such as Glitch.com and [ObservableHQ][] make it especially easy to [fork](https://observablehq.com/@observablehq/fork-share-merge?collection=@observablehq/editing-publishing-collaborating) or [remix](https://help.glitch.com/kb/article/23-what%E2%80%99s-remix/) -- aka copy and customize -- other people's work.
+Adapting the work of others can jumpstart your project and provide a window into how the "pros" execute real-world projects. Platforms such as Glitch.com and [ObservableHQ][] make it especially easy to [fork](https://observablehq.com/@observablehq/fork-share-merge?collection=@observablehq/editing-publishing-collaborating) or [remix](https://glitch.com) -- aka copy and customize -- other people's work.
 
 Just make sure to [cover your fundamentals](#1.-lay-the-foundation) and _understand the code_ before remixing. Otherwise you're just [copy-paste programming][].
 
