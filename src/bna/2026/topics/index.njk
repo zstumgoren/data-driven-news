@@ -1,0 +1,20 @@
+---
+layout: layouts/topics.njk
+title: Course Topics
+---
+
+{% block content %}
+  <table id="topics">
+    <tr>
+      <th class="center">Topic</th>
+      <th class="center">Description</th>
+      <th></th>
+    </tr>
+    {%- for page in collections.topicpages2026 %}
+    <tr>
+      <td><a href="{{ page.data.page.url }}">{{ page.data.title }}</a></td>
+      <td>{{ page.data.description }}</td>
+    </tr>
+    {%- endfor %}
+  </table>
+{% endblock %}
