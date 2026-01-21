@@ -1,10 +1,10 @@
 ---
 layout: layouts/assignments.njk
 title: Wireframes - Take 1
-date: 2025-01-22
+date: 2026-01-21
 number: 5
 tags:
-  - assignments202X
+  - assignments2026
 
 ---
 
