@@ -1,10 +1,10 @@
 ---
 layout: layouts/assignments.njk
 title: DOM and Browser Tools
-date: 2025-02-02
+date: 2026-02-01
 number: 7
 tags:
-  - assignments202X
+  - assignments2026
 
 ---
 
